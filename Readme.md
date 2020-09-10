@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Максим Бачурин](https://up.htmlacademy.ru/htmlcss/29/user/1594747).
-* Наставник: `Неизвестно`.
+* Наставник: Дмитрий Иовлев https://htmlacademy.ru/profile/skywalker.
 
 ---
 
