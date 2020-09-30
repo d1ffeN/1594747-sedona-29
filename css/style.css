@@ -13,3 +13,113 @@
     --brown-black:#503E33;
     --black-footer:#231F20;
 }
+body {
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto
+}
+.main-navigator {
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    background-color:#FFFFFF;
+}
+.site-navigation {
+    list-style: none;
+}
+.site-navigation a{
+    color:#000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus, {
+    background-color: #FFFFFF;
+}
+/**Фоновая картинка вставить**/
+background-image: url(../img/backgroundphoto.png);**/
+}
+.features-welcome {
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+}
+.features-welcome h1 {
+    text-align: center;
+    list-style: none;
+    font-size: 21px;
+    line-height: 26px;
+}
+.features {
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+}
+.features h2 {
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+    font-style: normal;
+}
+.feature-list {
+    list-style: none;
+}
+.feature-item {
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+}
+.feature-item h3 {
+    text-align: center;
+    font-size: 21px;
+    line-height: 21px;
+}
+.feature-item-blue {
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #81B3D2;
+}
+.feature-item-blue h3 {
+    list-style: none;
+    text-align: center;
+    font-size: 21px;
+    line-height: 21px;
+}
+.map-registration {
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+}
+.map-registration h2 {
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    line-height: 24px;
+}
+.page-footer {
+
+}
+.footer-contacts {
+
+}
+.footer-social {
+
+}
+.footer-copyright {
+    
+}
