@@ -21,8 +21,9 @@ body {
     text-transform: uppercase;
     background-color: #FFFFFF;
 }
-a {
+.page a {
     text-decoration: none;
+    font-weight: bold;
 }
 img {
     max-width: 100%;
@@ -42,11 +43,17 @@ img {
 }
 
 .site-navigation a:hover,
-.site-navigation a:focus, {
+.site-navigation a:focus {
     background-color: #FFFFFF;
+    color: #81B3D2;
+}
+.site-navigation a:active {
+    background-color:#FFFFFF;
+    color:#000000;
+    opacity: 0.3;
 }
 /**Фоновая картинка вставить**/
-background-image: url(../img/backgroundphoto.png);**/
+/**.background-image: url(../img/backgroundphoto.png);**/
 }
 .features-welcome {
     list-style: none;
@@ -111,15 +118,82 @@ background-image: url(../img/backgroundphoto.png);**/
     font-size: 30px;
     line-height: 24px;
 }
+.button-search {
+    text-transform: uppercase;
+    color:#FFFFFF;
+    background-color:#766357;
+    font-size:21px;
+    line-height: 26px;
+    width:568px;
+    height:86px;
+    border: none;
+}
+.button-search:hover,
+.button-search:focus {
+    background-color: #604E43;
+    color: #FFFFFF;
+}
+.button-search:active {
+    background-color: #503e33;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+.button-blue {
+    color: #FFFFFF;
+    background-color: #81B3D2;
+    font-size: 21px;
+    line-height: 21px;
+    width: 458px;
+    height: 58px;
+    text-transform: uppercase;
+    border: none;
+}
+.button-blue:hover,
+.button-blue:focus {
+    background-color: #669EC0;
+    color: #FFFFFF;
+}
+.button-blue:active {
+    background-color: #5496BD;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+}
 .page-footer {
-
+    font-size: 14px;
+    line-height: 21px;
+    list-style: none;
 }
 .footer-contacts {
-
+    text-transform: uppercase;
+    font-size: 21px;
+    line-height: 21px;
+    color: var(--black);
+    font-style: bold;
+}
+.footer-contacts a {
+    color:var(--black);
+    font-size: 21px;
+    line-height: 21px;
+    font-style: bold;
+}
+.footer-contacts h2 {
 }
 .footer-social {
-
+    text-align: center;
+}
+.footer-social ul {
+    list-style: none;
+}
 }
 .footer-copyright {
     
 }
+.social-button {
+    text-align: center;
+    color: black;
+}
+.button {
+    color: black;
+}
+/**hotels**/
