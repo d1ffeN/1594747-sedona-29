@@ -99,6 +99,9 @@ img {
     line-height: 21px;
     color: #FFFFFF;
     background-color: #81B3D2;
+    width: 400px;
+    height: 256px;
+
 }
 .feature-item-blue h3 {
     list-style: none;
