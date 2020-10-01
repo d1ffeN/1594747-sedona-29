@@ -101,7 +101,7 @@ img {
     background-color: #81B3D2;
     width: 400px;
     height: 256px;
-
+    padding-top: 55px;
 }
 .feature-item-blue h3 {
     list-style: none;
