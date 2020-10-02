@@ -40,6 +40,8 @@ img {
 }
 .site-navigation a{
     color:#000000;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .site-navigation a:hover,
@@ -52,8 +54,6 @@ img {
     color:#000000;
     opacity: 0.3;
 }
-/**Фоновая картинка вставить**/
-/**.background-image: url(../img/backgroundphoto.png);**/
 }
 .features-welcome {
     list-style: none;
@@ -101,7 +101,7 @@ img {
     background-color: #81B3D2;
     width: 400px;
     height: 256px;
-    padding-top: 55px;
+    padding-top: 47px;
 }
 .feature-item-blue h3 {
     list-style: none;
@@ -139,7 +139,6 @@ img {
 .button-search:active {
     background-color: #503e33;
     color: #FFFFFF;
-    opacity: 0.3;
 }
 .button-blue {
     color: #FFFFFF;
@@ -160,7 +159,7 @@ img {
     background-color: #5496BD;
     color: #FFFFFF;
     mix-blend-mode: normal;
-    opacity: 0.3;
+
 }
 .page-footer {
     font-size: 14px;
