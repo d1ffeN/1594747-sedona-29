@@ -131,6 +131,7 @@ img {
     height:86px;
     border: none;
 }
+}
 .button-search:hover,
 .button-search:focus {
     background-color: #604E43;
@@ -159,7 +160,9 @@ img {
     background-color: #5496BD;
     color: #FFFFFF;
     mix-blend-mode: normal;
-
+}
+input, label {
+    font-weight: bold;
 }
 .page-footer {
     font-size: 14px;
