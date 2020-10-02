@@ -199,3 +199,9 @@ img {
     color: black;
 }
 /**hotels**/
+.filter-option {
+    list-style: none;
+}
+.filter-option ul {
+    list-style: none;
+}
