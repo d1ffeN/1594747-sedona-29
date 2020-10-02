@@ -163,6 +163,7 @@ img {
 }
 input, label {
     font-weight: bold;
+    text-transform: uppercase;
 }
 .page-footer {
     font-size: 14px;
