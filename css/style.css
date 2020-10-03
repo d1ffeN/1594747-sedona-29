@@ -58,6 +58,13 @@ img {
     font-size: 14px;
     line-height: 21px;
 }
+.features-img {
+    width: 1200px;
+    height: 509px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-image: url(../img/backgroundsedona.jpg);
+}
 .features-welcome h1 {
     text-align: center;
     list-style: none;
@@ -157,7 +164,11 @@ img {
     color: var(--white);
     mix-blend-mode: normal;
 }
-input, label {
+.label-search {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.input-search {
     font-weight: bold;
     text-transform: uppercase;
 }
