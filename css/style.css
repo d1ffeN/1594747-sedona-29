@@ -203,10 +203,10 @@ img {
 }
 .social-button {
     text-align: center;
-    color: black;
+    color: var(--black);
 }
 .button {
-    color: black;
+    color: var(--black);
 }
 /**hotels**/
 .filter-option {
