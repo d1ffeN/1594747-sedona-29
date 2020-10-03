@@ -17,13 +17,12 @@ body {
     font-family: 'PT Sans', Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
-    color: #000000;
+    color: var(--black);
     text-transform: uppercase;
-    background-color: #FFFFFF;
+    background-color: var(--white);
 }
 .page a {
     text-decoration: none;
-    font-weight: bold;
 }
 img {
     max-width: 100%;
@@ -32,28 +31,26 @@ img {
 .main-navigator {
     font-size: 14px;
     line-height: 26px;
-    color: #000000;
-    background-color:#FFFFFF;
+    color: var(--black);
+    background-color: var(--white);
 }
 .site-navigation {
     list-style: none;
 }
 .site-navigation a{
-    color:#000000;
+    color: var(--black);
     font-weight: bold;
     text-decoration: none;
 }
-
 .site-navigation a:hover,
 .site-navigation a:focus {
-    background-color: #FFFFFF;
-    color: #81B3D2;
+    background-color:var(--white);
+    color:var(--light-blue);
 }
 .site-navigation a:active {
-    background-color:#FFFFFF;
-    color:#000000;
+    background-color:var(--white);
+    color:var(--black);
     opacity: 0.3;
-}
 }
 .features-welcome {
     list-style: none;
@@ -97,8 +94,8 @@ img {
     text-align: center;
     font-size: 14px;
     line-height: 21px;
-    color: #FFFFFF;
-    background-color: #81B3D2;
+    color: var(--white);
+    background-color: var(--light-blue);
     width: 400px;
     height: 256px;
     padding-top: 47px;
@@ -123,27 +120,26 @@ img {
 }
 .button-search {
     text-transform: uppercase;
-    color:#FFFFFF;
-    background-color:#766357;
+    color:var(--white);
+    background-color:var(--brown);
     font-size:21px;
     line-height: 26px;
     width:568px;
     height:86px;
     border: none;
 }
-}
 .button-search:hover,
 .button-search:focus {
-    background-color: #604E43;
-    color: #FFFFFF;
+    background-color: var(--borwn-simle);
+    color: var(--white);
 }
 .button-search:active {
-    background-color: #503e33;
-    color: #FFFFFF;
+    background-color: var(--brown-black);
+    color: var(--white);
 }
 .button-blue {
-    color: #FFFFFF;
-    background-color: #81B3D2;
+    color: var(--white);
+    background-color: var(--light-blue);
     font-size: 21px;
     line-height: 21px;
     width: 458px;
@@ -153,12 +149,12 @@ img {
 }
 .button-blue:hover,
 .button-blue:focus {
-    background-color: #669EC0;
-    color: #FFFFFF;
+    background-color: var(--simple-blue);
+    color: var(--white);
 }
 .button-blue:active {
-    background-color: #5496BD;
-    color: #FFFFFF;
+    background-color: var(--dark-blue);
+    color: var(--white);
     mix-blend-mode: normal;
 }
 input, label {
@@ -190,7 +186,6 @@ input, label {
 }
 .footer-social ul {
     list-style: none;
-}
 }
 .footer-copyright {
     
