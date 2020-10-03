@@ -16,7 +16,7 @@
 body {
     font-family: 'PT Sans', Arial, sans-serif;
     font-size: 14px;
-    line-height: 26px;
+    line-height: 21px;
     color: var(--black);
     text-transform: uppercase;
     background-color: var(--white);
@@ -75,6 +75,7 @@ img {
     list-style: none;
     text-align: center;
     font-size: 14px;
+    line-height: 26px
 }
 .features h2 {
     text-align: center;
