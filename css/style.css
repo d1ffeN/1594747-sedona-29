@@ -1,5 +1,7 @@
 :root {
     --black :#000000;
+    --blackthree: #333333;
+    --body: #F2F2F2;
     --white:#FFFFFF;
     --blue:#23A9E1;
     --light-blue: #81B3D2;
@@ -14,12 +16,12 @@
     --black-footer:#231F20;
 }
 body {
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 14px;
     line-height: 21px;
-    color: var(--black);
+    color: var(--blackthree);
     text-transform: uppercase;
-    background-color: var(--white);
+    background-color: var(--body);
 }
 .page a {
     text-decoration: none;
@@ -63,13 +65,14 @@ img {
     height: 509px;
     background-repeat: no-repeat;
     text-align: center;
-    background-image: url(../img/backgroundsedona.jpg);
+    background-image: url("../img/backgroundsedona.jpg");
 }
 .features-welcome h1 {
     text-align: center;
     list-style: none;
     font-size: 21px;
     line-height: 26px;
+    color: var(--black);
 }
 .features {
     list-style: none;
@@ -82,6 +85,7 @@ img {
     font-size: 14px;
     line-height: 26px;
     font-style: normal;
+    color: var(--black);
 }
 .feature-list {
     list-style: none;
@@ -96,6 +100,7 @@ img {
     text-align: center;
     font-size: 21px;
     line-height: 21px;
+    color: var(--black);
 }
 .feature-item-blue {
     list-style: none;
@@ -119,12 +124,14 @@ img {
     text-align: center;
     font-size: 14px;
     line-height: 21px;
+    color: var(--blackthree);
 }
 .map-registration h2 {
     list-style: none;
     text-align: center;
     font-size: 30px;
     line-height: 24px;
+    color: var(--black);
 }
 .button-search {
     text-transform: uppercase;
@@ -168,10 +175,12 @@ img {
 .label-search {
     font-weight: bold;
     text-transform: uppercase;
+    color: var(--black);
 }
 .input-search {
     font-weight: bold;
     text-transform: uppercase;
+    color: var(--black);
 }
 .page-footer {
     font-size: 14px;
@@ -200,7 +209,7 @@ img {
     list-style: none;
 }
 .footer-copyright {
-    
+    color: var(--black);
 }
 .social-button {
     text-align: center;
