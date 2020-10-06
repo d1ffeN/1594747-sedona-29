@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="UTF-8" />
     <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href="css/style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body class="page-body">
@@ -30,69 +31,75 @@
       </nav>
     </header>
     <main>
-      <h1>Поиск гостиницы в Седоне</h1>
-      <section>
-        <h2>Фильтр поиска жилья</h2>
-        <ul>
-          <li class="filter-option">
-            <ul>
-              <h3>Инфраструктура:</h3>
-              <li>
-                <input type="checkbox" />
-                <label>Бассейн</label>
-              </li>
-              <li>
-                <input type="checkbox" />
-                <label>Парковка</label>
-              </li>
-              <li>
-                <input type="checkbox" />
-                <label>Wi-Fi</label>
-              </li>
-            </ul>
-          </li>
-          <li class="filter-option">
-            <ul>
-              <h3>Тип жилья:</h3>
-              <li>
-                <input type="checkbox" />
-                <label>Гостиница</label>
-              </li>
-              <li>
-                <input type="checkbox" />
-                <label>Мотель</label>
-              </li>
-              <li>
-                <input type="checkbox" />
-                <label>Апартаменты</label>
-              </li>
-            </ul>
-          </li>
-          <li class="filter-option">
-            <ul>
-              <h3>Стоимость в сутки (Р):</h3>
-              <li><label class="min-price">от
-                <input type="text" name="min-price" value="0">
-              </label>
-              <label class="max-price">до
-                <input type="text" name="max-price" value="3000">
-              </label></li>
-              <li>Ползунок</li>
-              <li>
-                <button class="buttonlook" type="submit">Показать</button>
-              </li>
-            </ul>
-          </li>
-        </ul>
+      <h1 hidden="true">Поиск гостиницы в Седоне</h1>
+      <section class="filter-menu">
+        <h2 hidden="true">Фильтр поиска жилья</h2>
+        <div class="option">
+          <ul>
+            <li class="filter-option-1">
+              <ul>
+                <h3>Инфраструктура:</h3>
+                <li>
+                  <input type="checkbox" />
+                  <label>Бассейн</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label>Парковка</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label>Wi-Fi</label>
+                </li>
+              </ul>
+            </li>
+            <li class="filter-option-2">
+              <ul>
+                <h3>Тип жилья:</h3>
+                <li>
+                  <input type="checkbox" />
+                  <label>Гостиница</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label>Мотель</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label>Апартаменты</label>
+                </li>
+              </ul>
+            </li>
+            <li class="filter-option-3">
+              <ul>
+                <h3>Стоимость в сутки (Р):</h3>
+                <li>
+                  <label class="min-price"
+                    >от
+                    <input type="text" name="min-price" value="0" />
+                  </label>
+                  <label class="max-price"
+                    >до
+                    <input type="text" name="max-price" value="3000" />
+                  </label>
+                </li>
+                <li>Ползунок</li>
+                <li>
+                  <button class="buttonlook" type="submit">Показать</button>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="result">
-        <h2>Результаты поиска</h2>
-        <div>
-          <b>Найдено:3</b>
-          <b>Сортировка</b>
-          <a href="#">По Цене</a>
-          <a href="#">По Типу</a>
-          <a href="#">По Рейтингу</a>
+        <h2 hidden="true">Результаты поиска</h2>
+        <div class="sorting">
+          <b class="sorting-1">Найдено:3</b>
+          <b class="sorting-2">Сортировка</b>
+          <a class="sorting-3" href="#">По Цене</a>
+          <a class="sorting-4" href="#">По Типу</a>
+          <a class="sorting-4" href="#">По Рейтингу</a>
           <a href="#">Вверх</a>
           <a href="#">Вниз</a>
         </div>
@@ -110,8 +117,8 @@
               />
             </a>
             <p>Гостиница От 4000 Р.</p>
-            <a href="#">Подробнее</a>
-            <a href="#">Забронировать</a>
+            <a class="botton-more" href="#">Подробнее</a>
+            <a class="botton-book" href="#">Забронировать</a>
             <p>Рейтинг 8.2</p>
           </li>
           <li class="desert">
@@ -127,8 +134,8 @@
               />
             </a>
             <p>Мотель От 3000 Р.</p>
-            <a href="#">Подробнее</a>
-            <a href="#">Забронировать</a>
+            <a class="botton-more" href="#">Подробнее</a>
+            <a class="botton-book" href="#">Забронировать</a>
             <p>Рейтинг 8.9</p>
           </li>
           <li class="villas">
@@ -144,8 +151,8 @@
               />
             </a>
             <p>Гостиница От 2000 Р.</p>
-            <a href="#">Подробнее</a>
-            <a href="#">Забронировать</a>
+            <a class="botton-more" href="#">Подробнее</a>
+            <a class="botton-book" href="#">Забронировать</a>
             <p>Рейтинг 9.2</p>
           </li>
         </ul>

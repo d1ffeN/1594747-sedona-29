@@ -219,21 +219,159 @@ img {
     color: var(--black);
 }
 /**hotels**/
-.filter-option {
+.filter-menu {
+    background-image: url("../img/background-hotels.png");
+    background-repeat: no-repeat;
+    width: 1200px;
+}
+.true {
+    text-decoration: none;
     list-style: none;
+}
+.option {
+    color: var(--white);
+}
+.option ul li {
+    list-style: none;
+}
+.filter-option-1 {
+    text-align: left;
 }
 .filter-option ul {
     list-style: none;
 }
-.result {
+.filter-option-2 {
+    text-align: center;
 }
-.buttonlook {}
+.filter-option-3 {
+    text-align: right;
+}
+.sorting-2 {
+    font-size: 12px;
+    line-height: 18px;
+}
+.sorting a {
+    font-size: 12px;
+    line-height: 18px;
+}
+.sorting-1 {
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--black);
+}
+.sorting-2 {
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--black);
+}
+.sorting-3 {
+    color: var(--light-blue);
+}
+.sorting-4 {
+    color: var(--black);
+    opacity: 0.3;
+}
+.result {
+
+}
+.buttonlook {
+
+}
+.amara h3 {
+    list-style: none;
+    color: var(--black);
+    font-size: 21px;
+    line-height: 26px;
+}
 .amara {
     list-style: none;
+}
+.amara h3:hover,
+.amara:focus {
+    color: var(--light-blue);
+}
+.amara h3:active {
+    color: var(--black);
+    background-color: var(--white);
+    opacity: 0.3;
+}
+.desert h3 {
+    list-style: none;
+    color: var(--black);
+    font-size: 21px;
+    line-height: 26px
 }
 .desert {
     list-style: none;
 }
+.desert h3:hover,
+.desert h3:focus {
+    color: var(--light-blue);
+}
+.desert h3:active {
+    color: var(--black);
+    background-color: var(--white);
+    opacity: 0.3;
+}
+.villas h3 {
+    list-style: none;
+    color: var(--black);
+    font-size: 21px;
+    line-height: 26px
+}
+.villas h3:hover,
+.villas h3:focus {
+    color: var(--light-blue);
+}
+.villas h3:active {
+    color: var(--black);
+    background-color: var(--white);
+    opacity: 0.3;
+}
 .villas {
     list-style: none;
+}
+.botton-more {
+    margin-top: 3px;
+    width: 110px;
+    height: 27px;
+    left: 212px;
+    top: 953px;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    background-color: var(--light-blue);
+    color: var(--white);
+    text-decoration: none;
+    border: none;
+    text-decoration: none;
+}
+.botton-more:hover,
+.button-more:focus {
+    background-color: var(--simple-blue);
+    color: var(--white);
+}
+.button-more:active {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    mix-blend-mode: normal;
+    opacity: 0.3;
+}
+.botton-book{
+    width: 142px;
+    height: 27px;
+    left: 328px;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    background-color: var(--brown);
+    color: var(--white);
+    text-decoration: none;
+}
+.botton-book:active {
+    background-color: var(--borwn-simle);
 }
