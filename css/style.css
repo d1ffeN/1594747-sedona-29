@@ -276,16 +276,19 @@ img {
     line-height: 18px;
     color: var(--black);
 }
-.sorting-3 {
+.sorting a {
     color: var(--black);
     opacity: 0.3;
 }
-.sorting-3:hover,
-.sorting-3:focus {
+.sorting a:hover,
+.sorting a:focus {
     color: var(--light-blue);
 }
-.sorting-3:active {
+.sorting a:active {
     color: var(--black);
+}
+.sorting .sorting-3 {
+    color: var(--light-blue);
 }
 .result {
 
