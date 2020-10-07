@@ -287,9 +287,6 @@ img {
 .sorting-3:active {
     color: var(--black);
 }
-.sorting .sorting-3 {
-    color: var(--light-blue);
-}
 .result {
 
 }
