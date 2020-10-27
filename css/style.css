@@ -14,6 +14,7 @@
     --borwn-simle:#604E43;
     --brown-black:#503E33;
     --black-footer:#231F20;
+    --minusgrey:#A9A9A9;
 }
 body {
     font-family: "PT Sans", "Arial", sans-serif;
@@ -220,12 +221,73 @@ img {
 .footer-copyright {
     color: var(--black);
 }
+.footer-copyright p {
+    font-size: 14px;
+    line-height: 26px;
+}
 .social-button {
-    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 6px 6px 0;
+    padding-top: 16px;
+    width: 46px;
+    height: 48px;
     color: var(--black);
+    background-color: var(--light-blue);
+}
+.social-button:hover,
+.social-button:focus {
+    background-color: var(--simple-blue);
+    width: 46px;
+    height: 48px;
+}
+.social-button a:active {
+    background-color: var(--dark-blue);
+    opacity: 0.3;
 }
 .button {
-    color: var(--black);
+    box-shadow: none;
+    width: 115px;
+    height: 41px;
+}
+.button { 
+    box-shadow: none;
+    width: 115px;
+    height: 41px;
+    stroke: var(--black-footer);
+}
+.button:hover,
+.button:focus {
+    box-shadow: none;
+    stroke: var(--light-blue);
+}
+.button:active {
+    box-shadow: none;
+    stroke: var(--grey);
+}
+.minus {
+    border: none;
+    color: var(--minusgrey);
+    border: none;
+}
+.minus:hover,
+.minus:focus  {
+    fill: var(--black)
+}
+.minus:active {
+    fill:var(--light-blue);
+}
+.plus {
+    border: none;
+    color: var(--minusgrey);
+    border: none;
+}
+.plus:hover,
+.plus:focus {
+    fill: var(--black);
+}
+.plus:active {
+    fill:var(--light-blue);
 }
 /**hotels**/
 .filter-menu {
@@ -278,7 +340,6 @@ img {
 }
 .sorting a {
     color: var(--black);
-    opacity: 0.3;
 }
 .sorting a:hover,
 .sorting a:focus {
