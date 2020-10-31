@@ -15,6 +15,7 @@
     --brown-black:#503E33;
     --black-footer:#231F20;
     --minusgrey:#A9A9A9;
+    --up: #CACACA;
 }
 body {
     font-family: "PT Sans", "Arial", sans-serif;
@@ -103,6 +104,16 @@ img {
     font-size: 14px;
     line-height: 21px;
 }
+.feature-item.house {
+    background: url("../img/icon-1house.svg") no-repeat top center ;
+}
+.feature-item.food {
+    background: url("../img/icon-3food.svg") no-repeat top center;
+}
+.feature-item.souvenir {
+    background: url("../img/icon-2souvenir.svg") no-repeat top center;
+}
+.feature-item 
 .feature-item h3 {
     text-align: center;
     font-size: 21px;
@@ -268,26 +279,24 @@ img {
 .minus {
     border: none;
     color: var(--minusgrey);
-    border: none;
 }
 .minus:hover,
 .minus:focus  {
-    fill: var(--black)
+    color: var(--black);
 }
 .minus:active {
-    fill:var(--light-blue);
+    color:var(--light-blue);
 }
 .plus {
     border: none;
     color: var(--minusgrey);
-    border: none;
 }
 .plus:hover,
 .plus:focus {
-    fill: var(--black);
+    color: var(--black);
 }
 .plus:active {
-    fill:var(--light-blue);
+    color:var(--light-blue);
 }
 /**hotels**/
 .filter-menu {
@@ -418,4 +427,30 @@ img {
 }
 .botton-book:active {
     background-color: var(--borwn-simle);
+}
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+svg {
+    fill: currentColor;
+}
+.up {
+    border-color: var(--up);
+    border: currentColor;
+}
+.up:hover,
+.up:focus {
+    border-color: var(--black);
+}
+.up:active {
+    border-color: var(--light-blue);
+}
+.rating {
+    content: " ";
+    background-image: url(../img/star.png);
+    background: repeat 4;
 }
