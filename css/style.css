@@ -454,3 +454,41 @@ svg {
     background-image: url(../img/star.png);
     background: repeat 4;
 }
+/* container grid */
+.container {
+    display: grid;
+    width: 1200px;
+    margin: 0 auto;
+}
+/* container */
+/* flex */
+.main-header {
+    display: flex;
+    outline: green solid;
+    outline-offset: -5px;
+    margin: 0px -5px;
+}
+.main-header-logo.flex {
+    width: 138px;
+    background-color: red;
+}
+.information.flex {
+    background-color: salmon;
+}
+.item.flex {
+}
+.item.flex {
+    background-color: silver;
+}
+.item.flex{
+    align-items: flex-end;
+    background-color: tan;
+}
+/* flex header */
+/* flex2 */
+.features.flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+}
+/* flex2 */
